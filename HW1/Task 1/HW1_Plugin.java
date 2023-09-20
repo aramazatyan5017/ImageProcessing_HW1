@@ -37,7 +37,7 @@ public class HW1_Plugin implements PlugIn {
         IJ.save(imagePlus, "car-f-92.png");
     }
 
-    public int getNumberOfCourses(String fileName) {
+    private int getNumberOfCourses(String fileName) {
         try (FileReader fileReader = new FileReader(fileName);
              BufferedReader bufferedReader = new BufferedReader(fileReader)) {
             String currentLine = null;
@@ -51,7 +51,7 @@ public class HW1_Plugin implements PlugIn {
         }
     }
 
-    public List<int[]> getClashingPoints(String fileName) {
+    private List<int[]> getClashingPoints(String fileName) {
         List<int[]> clashingPoints = new ArrayList<>();
         try (FileReader fileReader = new FileReader(fileName);
              BufferedReader bufferedReader = new BufferedReader(fileReader)) {

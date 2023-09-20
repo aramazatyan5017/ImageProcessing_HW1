@@ -1,0 +1,2 @@
+The only external sources that were used here, were the methods from the CyclicShift PluginFilter, 
+written class. However, these methods have been slightly modified to accomodate to the algorithm change. 
