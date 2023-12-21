@@ -1,0 +1,2 @@
+The included python code adds the binary versions of the images to the same directories the original pictures are in. I found a source, where they tried to the binarisation of the image using division and morphology, but in our case, thresholding worked best. 
+Unfortunately, I did not manage to move past this point.  
